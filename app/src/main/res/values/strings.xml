@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SRVale</string>
+    <string-array name="salas">
+        <item>Ricardo Ballvé - 41B</item>
+        <item>Edifícil Belesa - 09</item>
+    </string-array>
+    <string-array name="alertas">
+        <item><font size = "20">Cheiro de Fumaça</font></item>
+        <item><font size = "20">Vazamento de Gás</font></item>
+        <item><font size = "20">Incêndio</font></item>
+        <item><font size = "20">Ruído Estranho</font></item>
+        <item><font size = "20">Pressão Anormal</font></item>
+        <item><font size = "20">Radiações Ionizantes</font></item>
+        <item><font size = "20">Produtos Químicos</font></item>
+        <item><font size = "20">Vibrações</font></item>
+        <item><font size = "20">Outros</font></item>
+    </string-array>
+</resources>
