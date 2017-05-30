@@ -7,25 +7,15 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:weightSum="1">
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/rotafugasaida"
-            android:id="@+id/imageView6" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/rotafugaescada"
-            android:id="@+id/imageView8" />
+            android:layout_height="272dp"
+            app:srcCompat="@drawable/pontoencontrodraw"
+            android:id="@+id/imageView10"
+            android:scaleType="fitCenter" />
     </LinearLayout>
 
     <LinearLayout
@@ -34,15 +24,15 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="Em caso de sinistro, você deverá se locomover até o ponto de encontro ao lado de fora do prédio. Para isso, siga a rota de fuga mais apropriada com base nesses avisos que estão espalhados por toda a empresa, que indicam a rota para a saída mais segura."
+            android:text="Assim se parece seu ponto de encontro.\nGeralmente se localiza do lado de fora do prédio, ao lado ou bem próximo à ele.\nEm caso de sinistro, basta chegar até esse local.\nSetas e avisos te indicarão o caminho apropriado.\nAo chegar no local, fique á vontade para comunicar a segurança através de um dos números indicados na placa."
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView13"
-            android:paddingTop="20dp"
-            android:paddingLeft="15dp"
+            android:layout_height="189dp"
+            android:id="@+id/textView14"
             android:paddingRight="10dp"
+            android:paddingLeft="15dp"
             android:textColor="@android:color/black"
-            android:textSize="18sp" />
+            android:textSize="15sp"
+            android:paddingTop="10dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -54,7 +44,6 @@
             android:text="Próximo >"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button3" />
+            android:id="@+id/button5" />
     </LinearLayout>
-
 </LinearLayout>

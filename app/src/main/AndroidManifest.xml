@@ -25,6 +25,14 @@
         </activity>
         <activity android:name=".PontoEncontro">
         </activity>
+        <activity android:name=".TRotaFuga">
+        </activity>
+        <activity android:name=".TPontoEncontro">
+        </activity>
+        <activity android:name=".TAlerta">
+        </activity>
+        <activity android:name=".Home">
+        </activity>
     </application>
 
 </manifest>
